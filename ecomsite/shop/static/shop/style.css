@@ -1,0 +1,81 @@
+/* Navbar styles */
+.navbar {
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Search form styles */
+.card-sm {
+  margin-bottom: 20px;
+}
+
+.form-control-borderless {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.btn-success {
+  border-radius: 0;
+}
+
+/* Product card styles */
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text.price {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn.atc {
+  margin-top: 1px;
+}
+
+/* Pagination styles */
+.pagination {
+  justify-content: center;
+}
+
+.page-item.active .page-link {
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+}
+
+/* Cart popover styles */
+.popover-body {
+  padding: 10px;
+}
+
+.popover-body .btn-warning {
+  width: 100%;
+}
+
